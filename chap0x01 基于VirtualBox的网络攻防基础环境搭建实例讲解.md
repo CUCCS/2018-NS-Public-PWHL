@@ -35,8 +35,6 @@
     
 ![](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x01/chap0x01%E6%88%AA%E5%9B%BE/2.png)
 
-### 网络配置
-
 ### 靶机
 
 - 使用一块网卡，选择内网模式（internal network）
