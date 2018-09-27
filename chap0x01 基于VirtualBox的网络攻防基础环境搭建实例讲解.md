@@ -19,7 +19,7 @@ chap0x01实验报告
 
 网络拓扑
 
-![](chap0x01截图\网络拓扑.png)
+![](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x01/chap0x01%E6%88%AA%E5%9B%BE/%E7%BD%91%E7%BB%9C%E6%8B%93%E6%89%91.png)
 
 网络配置
 
@@ -35,7 +35,7 @@ chap0x01实验报告
     
     .重建三台虚拟机，选择虚拟硬盘时直接选择现有的多重加载硬盘
     
-![](chap0x01截图\2.png)
+![](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x01/chap0x01%E6%88%AA%E5%9B%BE/2.png)
 
 网络配置
 
@@ -43,44 +43,42 @@ chap0x01实验报告
 
     .使用一块网卡，选择内网模式（internal network）
 
-![](chap0x01截图\靶机ip配置.png)
+![](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x01/chap0x01%E6%88%AA%E5%9B%BE/%E9%9D%B6%E6%9C%BAip%E9%85%8D%E7%BD%AE.png)
 
 
 网关
     
     .两块网卡，一个位内网模式，另一块为NAT network模式
 
-![](chap0x01截图\网关ip配置.png)
+![](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x01/chap0x01%E6%88%AA%E5%9B%BE/%E7%BD%91%E5%85%B3ip%E9%85%8D%E7%BD%AE.png)
 
 攻击者
 
     .选择一块网卡，NAT network模式
     .和网关的另外一个端口在同一个网段
 
-![](chap0x01截图\攻击者ip配置.png)
+![](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x01/chap0x01%E6%88%AA%E5%9B%BE/%E6%94%BB%E5%87%BB%E8%80%85ip%E9%85%8D%E7%BD%AE.png)
 
 连通测试
 
  靶机可以直接访问攻击者主机 
-![](chap0x01截图\靶机ping攻击者主机.png) 
-![](chap0x01截图\靶机ping攻击者监听.png)
-    
+![](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x01/chap0x01%E6%88%AA%E5%9B%BE/%E9%9D%B6%E6%9C%BAping%E6%94%BB%E5%87%BB%E8%80%85%E4%B8%BB%E6%9C%BA.png)
+![](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x01/chap0x01%E6%88%AA%E5%9B%BE/%E9%9D%B6%E6%9C%BAping%E6%94%BB%E5%87%BB%E8%80%85%E7%9B%91%E5%90%AC.png)  
 攻击者主机无法直接访问靶机
-![](chap0x01截图\攻击者ping靶机.png)
-![](chap0x01截图\攻击者ping靶机监听.png)
-
+![](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x01/chap0x01%E6%88%AA%E5%9B%BE/%E6%94%BB%E5%87%BB%E8%80%85ping%E9%9D%B6%E6%9C%BA.png)
+![](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x01/chap0x01%E6%88%AA%E5%9B%BE/%E6%94%BB%E5%87%BB%E8%80%85ping%E9%9D%B6%E6%9C%BA%E7%9B%91%E5%90%AC.png)
 
 
 网关可以直接访问攻击者主机和靶机
-![](chap0x01截图\网关ping攻击者.png)
-![](chap0x01截图\网关ping攻击者监听.png)
-![](chap0x01截图\网关ping靶机.png)
-![](chap0x01截图\网关ping靶机监听.png)
+![](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x01/chap0x01%E6%88%AA%E5%9B%BE/%E7%BD%91%E5%85%B3ping%E6%94%BB%E5%87%BB%E8%80%85.png)
+![](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x01/chap0x01%E6%88%AA%E5%9B%BE/%E7%BD%91%E5%85%B3ping%E6%94%BB%E5%87%BB%E8%80%85%E7%9B%91%E5%90%AC.png)
+![](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x01/chap0x01%E6%88%AA%E5%9B%BE/%E7%BD%91%E5%85%B3ping%E9%9D%B6%E6%9C%BA.png)
+![](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x01/chap0x01%E6%88%AA%E5%9B%BE/%E7%BD%91%E5%85%B3ping%E9%9D%B6%E6%9C%BA%E7%9B%91%E5%90%AC.png)
 
 所有节点均可以访问互联网
-![](chap0x01截图\网关可上网.png)
-![](chap0x01截图\靶机能上网.png)
-![](chap0x01截图\攻击者可上网.png)
+![](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x01/chap0x01%E6%88%AA%E5%9B%BE/%E6%94%BB%E5%87%BB%E8%80%85%E5%8F%AF%E4%B8%8A%E7%BD%91.png)
+![](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x01/chap0x01%E6%88%AA%E5%9B%BE/%E7%BD%91%E5%85%B3%E5%8F%AF%E4%B8%8A%E7%BD%91.png)
+![](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x01/chap0x01%E6%88%AA%E5%9B%BE/%E9%9D%B6%E6%9C%BA%E8%83%BD%E4%B8%8A%E7%BD%91.png)
 
 靶机的所有对外上下行流量必须经过网关 靶机的网关ip 被设置为网关 eth0 的ip，靶机本身不能上网，靶机只能经网关对外访问。
 
