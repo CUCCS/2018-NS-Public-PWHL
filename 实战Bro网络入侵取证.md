@@ -60,6 +60,7 @@ redef Site::local_nets = { 192.150.11.0/24 };
   redef FTP::default_capture_password = T;
   ```
   - 添加代码前
+  
   ![image](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x12/picture/bro11.png)
   - 添加代码后（刚开始添加完后，hidden没有变为1，做下面的SMB识别，更改了local.bro，再执行```bro -r attack-trace.pcap /etc/bro/site/local.bro```后，hidden变为1）（问了其他同学她们是加了```redef FTP::default_capture_password = T;```就直接看到hidden->1的结果）
   ![image](https://github.com/CUCCS/2018-NS-Public-PWHL/blob/NS_chap0x12/picture/bro12.png)
